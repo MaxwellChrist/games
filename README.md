@@ -1,1 +1,1 @@
-# games
+The objective of this portfolio piece is to create some simple games that can be played just using HTML, CSS, and vanilla JS. A lot of what I have been learning over the course of 2022 have been pretty advanced concepts, plugins, etc. I wanted to create something that would get me back into refreshing my skills with the basics.
