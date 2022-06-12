@@ -125,9 +125,8 @@ select {
     align-items: center;
   }
   .space {
-      width: 50%;
-      padding-top: 4rem;
-      padding-bottom: 4rem;
+      width: 6rem;
+      height: 6rem;
     }
   .red {
     background-color: red;
@@ -135,10 +134,31 @@ select {
   .black {
     background-color: black;
   }
+
+  .game-piece {
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+    border-radius: 50%;
+  }
+  .red-game-piece {
+    background-color: red;
+  }
+  .black-game-piece {
+    background-color: black;
+  }
+
   
   @media (max-width: 950px) {
     .space {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        height: 4.5rem;
+        width: 4.5rem;
+      }
+  }
+
+  @media (max-width: 720px) {
+    .space {
+        height: 3rem;
+        width: 3rem;
       }
   }
