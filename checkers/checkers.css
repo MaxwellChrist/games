@@ -113,7 +113,9 @@ select {
 .black {
     background-color: black;
 } */
-
+body {
+  background-color: black;
+}
 .container {
     max-width: 80%;
     padding-top: 100px;
@@ -128,11 +130,11 @@ select {
       width: 6rem;
       height: 6rem;
     }
-  .red {
-    background-color: red;
+  .white {
+    background-color: white;
   }
-  .black {
-    background-color: black;
+  .grey {
+    background-color: #595358;
   }
 
   .game-piece {
