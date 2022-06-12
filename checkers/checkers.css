@@ -79,46 +79,52 @@ select {
 /*
 /////////////End of CSS Reset ////////////////
 */
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 1rem;
-  } 
-.container {
-    padding-top: 50px;
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
+* {
+  box-sizing: border-box;
+  font-size: 1rem;
 }
-.row {
-    display: flex;
-    align-items: center;
-    height: 100px;
-    border: 2px solid #006100; 
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-content: center;
+.navbar-list {
+  display: flex;
+  justify-content: flex-start;
+  background: black;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 10px;
 }
-.space {
-    height: 80px;
-    width: 80px;
-    margin: 0;
-    padding: 0;
+.navbar-list a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 20px;
+  font-size: 1.5rem;
+  border-right: 2px solid black;
+  height: 100px;
 }
-.red {
-    background-color: red;
-}
-.black {
-    background-color: black;
-} */
 body {
   background-color: black;
 }
+.heading {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.heading h1{
+  font-size: 2rem;
+}
+.stats {
+  list-style: none;
+}
+.stats li{
+  list-style: none;
+  font-size: 1.5rem;
+}
 .container {
     max-width: 80%;
-    padding-top: 100px;
+    padding-top: 50px;
     margin: 0 auto;
   }
   .row {
@@ -136,7 +142,6 @@ body {
   .grey {
     background-color: #595358;
   }
-
   .game-piece {
     height: 80%;
     width: 80%;
@@ -149,8 +154,10 @@ body {
   .black-game-piece {
     background-color: black;
   }
+  .hidden {
+    display: none;
+  }
 
-  
   @media (max-width: 950px) {
     .space {
         height: 4.5rem;
